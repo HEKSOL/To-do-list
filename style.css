@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.div-tarefa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    border: 3px solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+ 
+button{
+    margin-top: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+li{
+    list-style-type: none;
+    margin-right: 200px;
+    gap: 15px;
+}
+
+h2{
+    text-align: center;
+}
+
+.div-btns{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
